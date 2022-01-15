@@ -1,0 +1,14 @@
+{
+  "name": "00-js-testing-fundamentals",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./index.js",
+    "test:globals": "node --require ./setup-globals.js ./index.js",
+    "test:jest": "npx jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
