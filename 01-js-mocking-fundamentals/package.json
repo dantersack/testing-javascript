@@ -1,0 +1,16 @@
+{
+  "name": "01-js-mocking-fundamentals",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "create-jest-runner": "^0.9.0",
+    "jest": "^27.4.7"
+  }
+}
