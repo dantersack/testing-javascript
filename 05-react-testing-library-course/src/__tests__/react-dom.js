@@ -6,6 +6,6 @@ test('renders a number input with a label "favorite Number"', () => {
   const div = document.createElement('div');
   ReactDOM.render(<FavoriteNumber />, div);
   console.log(div.innerHTML);
-  expect(div.querySelector('input').type).toBe('number');
+  expect(div.querySelector('input')).toHaveAttribute('type', 'number');
   expect(div.querySelector('label')).toHaveTextContent('Favorite Number');
 });
